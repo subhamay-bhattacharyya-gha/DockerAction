@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Run Custom Action
-        uses: subhamay-bhattacharyya-gha/RepoServiceScanner@main
+        uses: subhamay-bhattacharyya-gha/RepoServiceScanner@main 
         with:
           name: 'John'
         id: custom-action
