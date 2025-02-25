@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Custom Action
-        uses: subhamay-bhattacharyya-gha/RepoServiceScanner@main 
+        uses: subhamay-bhattacharyya-gha/RepoServiceScanner/.github/actions@main 
         with:
           name: 'John'
         id: custom-action
